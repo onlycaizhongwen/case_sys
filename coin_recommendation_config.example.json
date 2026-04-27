@@ -1,0 +1,22 @@
+{
+  "runtime": {
+    "candidate_limit": 80,
+    "days": 30,
+    "output_dir": "outputs/manual",
+    "write_history": true,
+    "history_dirname": "history",
+    "request_pause_seconds": 0.15
+  },
+  "recommendation": {
+    "strong_buy_threshold": 85.0,
+    "watchlist_threshold": 72.0,
+    "top_recommendation_limit": 10,
+    "freshness_weight": 0.24,
+    "trend_weight": 0.22,
+    "confidence_weight": 0.22,
+    "volume_weight": 0.12,
+    "rsi_weight": 0.1,
+    "change_weight": 0.1,
+    "volatility_penalty_weight": 0.1
+  }
+}

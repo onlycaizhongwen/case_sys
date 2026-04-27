@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local runtime outputs
+outputs/
+coin_recommendations.json
+ma_cross_analysis_report.txt
+*.log
+*.out.log
+*.err.log
+
+# Local workspace metadata
+.ai/
+.codex/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

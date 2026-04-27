@@ -1,0 +1,29 @@
+{
+  "runtime": {
+    "candidate_limit": 200,
+    "days": 30,
+    "output_dir": "outputs/dashboard",
+    "write_history": true,
+    "history_dirname": "history",
+    "latest_report_name": "ma_cross_analysis_report.txt",
+    "latest_json_name": "coin_recommendations.json",
+    "request_pause_seconds": 0.01
+  },
+  "recommendation": {
+    "strong_buy_threshold": 85.0,
+    "watchlist_threshold": 72.0,
+    "top_recommendation_limit": 10,
+    "freshness_weight": 0.24,
+    "trend_weight": 0.22,
+    "confidence_weight": 0.22,
+    "volume_weight": 0.12,
+    "rsi_weight": 0.1,
+    "change_weight": 0.1,
+    "volatility_penalty_weight": 0.1,
+    "dual_timeframe_bonus": 4.0,
+    "triple_timeframe_bonus": 8.0,
+    "watchlist_alignment_bonus": 2.0,
+    "long_mid_alignment_bonus": 1.0,
+    "consistency_bonus_cap": 10.0
+  }
+}
