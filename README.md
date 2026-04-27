@@ -87,6 +87,15 @@ git commit -m "your message"
 git push
 ```
 
+## 协作文件
+
+- `LICENSE`
+  当前默认使用 MIT License。
+- `CHANGELOG.md`
+  用于记录版本演进和关键改动。
+- `.github/ISSUE_TEMPLATE/`
+  包含缺陷反馈与功能建议模板。
+
 ## 说明
 
 - 仪表盘默认每 `3600` 秒自动执行一次分析。
